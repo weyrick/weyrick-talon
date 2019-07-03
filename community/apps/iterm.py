@@ -10,6 +10,8 @@ keymap = {
     "split vertical": Key("cmd-d"),
     "pane next": Key("cmd-]"),
     "pane last": Key("cmd-["),
+    "goneck": Key("cmd-shift-]"),
+    "gopreev": Key("cmd-shift-["),
 }
 
 ctx.keymap(keymap)

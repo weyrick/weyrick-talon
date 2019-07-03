@@ -35,6 +35,7 @@ symbols = normalise_keys(
         "(tick | back tick)": "`",
         "(comma | ,)": ",",
         "(dot | period)": ".",
+        "datsun": ". ",
         "(semicolon | semi)": ";",
         "(quote | quatchet)": "'",
         "(square | L square | left square | left square bracket)": "[",
