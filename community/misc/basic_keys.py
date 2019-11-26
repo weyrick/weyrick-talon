@@ -35,7 +35,6 @@ symbols = normalise_keys(
         "(tick | back tick)": "`",
         "(comma | ,)": ",",
         "(dot | period)": ".",
-        "datsun": ". ",
         "(semicolon | semi)": ";",
         "(quote | quatchet)": "'",
         "(square | L square | left square | left square bracket)": "[",
@@ -125,6 +124,7 @@ ctx.keymap(
         "number {basic_keys.digits}+ [over]": press_keys,
         "tarsh": Key("shift-tab"),
         "tarpy": [Key("tab"), Key("tab")],
+        "datsun": ". ",
     }
 )
 ctx.set_list("alphabet", alphabet.keys())
